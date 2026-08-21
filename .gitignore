@@ -14,7 +14,7 @@ venv/
 datasets/
 
 # Trained models
-models/
+ai/models/
 
 # Logs
 *.log
