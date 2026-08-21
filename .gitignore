@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+
+# IDE
+.vscode/
+
+# Large datasets
+datasets/
+
+# Trained models
+models/
+
+# Logs
+*.log
