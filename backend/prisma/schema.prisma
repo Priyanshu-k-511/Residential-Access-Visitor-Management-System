@@ -1,7 +1,18 @@
 generator client {
   provider = "prisma-client"
+  output = "../src/generated"
+  previewFeatures = ["postgresqlExtensions"]
 }
 
 datasource db {
   provider = "postgresql"
+  extensions = [vector]
+}
+
+model Resident {
+  id              Int                             @id @default(autoincrement())
+  name            String
+  flatNo          String
+  faceEmbedding   Unsupported("vector(512)")
+  status          Boolean                         @default(true)
 }
