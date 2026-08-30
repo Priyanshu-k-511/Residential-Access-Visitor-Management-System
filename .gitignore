@@ -6,6 +6,8 @@ venv/
 
 # Environment variables / secrets
 .env
+.env.*
+!.env.example
 
 # IDE
 .vscode/
@@ -21,3 +23,6 @@ ai/models/
 
 # Node.js
 node_modules/
+
+# generated prism client
+src/generated
