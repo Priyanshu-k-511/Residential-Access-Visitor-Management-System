@@ -26,3 +26,6 @@ node_modules/
 
 # generated prism client
 src/generated
+
+# Local DB
+database/faces/
