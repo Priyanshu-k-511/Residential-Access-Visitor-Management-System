@@ -28,4 +28,4 @@ node_modules/
 src/generated
 
 # Local DB
-database/faces/
+database/
